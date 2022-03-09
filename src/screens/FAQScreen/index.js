@@ -1,5 +1,6 @@
 import Footer from "../../components/patterns/Footer";
 import Link from "../../components/Link";
+import PageTitle from "../../components/PageTitle";
 import { theme } from "../../theme/theme";
 import { Box, Text } from "../../theme/components";
 
@@ -10,6 +11,7 @@ export default function FAQScreen({ fetchFAQ }) {
         backgroundColor: theme.colors.neutral["050"],
       }}
     >
+      <PageTitle title="FAQ | Alura Cases" />
       <Box
         as="main"
         stylesheet={{
