@@ -1,4 +1,4 @@
-import Link from "../src/components/Link";
+import Link from "../src/components/patterns/Link";
 
 export default function FAQPage() {
   return (
