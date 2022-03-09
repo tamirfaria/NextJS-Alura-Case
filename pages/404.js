@@ -1,4 +1,4 @@
-import Link from "../src/components/patterns/Link";
+import Link from "../src/components/Link";
 
 export default function Page404() {
   return (
